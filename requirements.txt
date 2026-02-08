@@ -1,0 +1,12 @@
+# --- Core Math & Signal Processing ---
+numpy>=1.20.0
+scipy>=1.7.0      # Required for the Hilbert Transform
+pandas>=1.3.0     # For organizing lab CSV data
+
+# --- Visualization & Physics ---
+matplotlib>=3.4.0 # For the Bloch Sphere plotting
+ipython>=7.0.0    # For display formatting in Jupyter
+
+# --- Automation & CI/CD ---
+GitPython>=3.1.0  # For the auto-filing/Github push features
+python-dotenv>=0.19.0 # Optional: for securing your Github tokens
