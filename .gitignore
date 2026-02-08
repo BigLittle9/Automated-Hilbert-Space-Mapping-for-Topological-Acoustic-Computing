@@ -1,0 +1,24 @@
+# --- Python Junk ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# --- Jupyter Notebook Junk ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+checkpoint_*.ipynb
+
+# --- Local Data & Logs (Optional) ---
+# We ignore raw data if it's too large, but for this lab, 
+# you might want to keep it. 
+# *.csv
+# *.log
+
+# --- System Junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
