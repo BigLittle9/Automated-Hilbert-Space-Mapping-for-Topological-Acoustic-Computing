@@ -9,10 +9,10 @@ This project is built using Python 3.x. To ensure a reproducible research enviro
 
 Open your terminal or command prompt and run:
 
-'''Bash
+```bash
 git clone https://github.com/yourusername/Acoustic-Encryption-Automation.git
 cd Acoustic-Encryption-Automation
-'''
+```
 ### 2. Create a Virtual Environment
 
 This isolates the project dependencies specifically for this lab work:
