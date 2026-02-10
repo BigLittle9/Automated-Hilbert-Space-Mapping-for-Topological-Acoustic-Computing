@@ -24,21 +24,26 @@ python -m venv venv
 .\venv\Scripts\activate
 macOS/Linux:
 ```
+
+MacOS:
+
+```
 Bash
 python3 -m venv venv
 source venv/bin/activate
+```
 
 ### 3. Install Required Dependencies
 
 Install the specific versions of the libraries used in the extraction engine:
 
-Bash
+```Bash
 pip install -r requirements.txt
-
+```
 ### 4. Verify the Engine
 
 Run the self-test built into the core logic to ensure the Hilbert Transform and mapping functions are active:
 
-Bash
-python src/extraction_engine.py
+```Bash
+python src/extraction_engine.py```
 If successful, you will see a message: "Test Successful. State Vector extracted."
