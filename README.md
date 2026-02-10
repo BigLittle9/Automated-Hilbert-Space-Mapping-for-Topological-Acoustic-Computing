@@ -19,11 +19,11 @@ This isolates the project dependencies specifically for this lab work:
 
 Windows:
 
-Bash
+```Bash
 python -m venv venv
 .\venv\Scripts\activate
 macOS/Linux:
-
+```
 Bash
 python3 -m venv venv
 source venv/bin/activate
